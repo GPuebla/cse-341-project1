@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/GPuebla/cse-341-project1#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "mongodb": "^6.9.0"
   }
