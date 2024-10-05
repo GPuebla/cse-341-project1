@@ -1,0 +1,8 @@
+### Get the message: Hello Word!
+GET https://cse-341-project1-7a6g.onrender.com
+
+### Get all the users
+GET https://cse-341-project1-7a6g.onrender.com/users
+
+### Get users by id (66feda6634acaf25fc843242)
+GET https://cse-341-project1-7a6g.onrender.com/users/66feda6634acaf25fc843242
