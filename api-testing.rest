@@ -1,3 +1,28 @@
+### LOCAL
+
+### Get the message: Hello Word!
+GET http://localhost:3000/
+
+### Get all the users
+GET http://localhost:3000/users
+
+### Get users by id (66feda6634acaf25fc843242)
+GET http://localhost:3000/users/66feda6634acaf25fc843242
+
+### Create a new user
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "test4@test.com",
+    "username": "test4@test.com",
+    "name": "Hello4",
+    "ipaddress": "94.121.16.56" 
+}
+
+
+### RENDER
+
 ### Get the message: Hello Word!
 GET https://cse-341-project1-7a6g.onrender.com
 
